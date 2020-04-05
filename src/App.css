@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Google Sans", sans-serif;
+  font-size: 1rem;
+  background-color: #020a16;
+  color: #fff;
+  overflow-x: hidden;
+  font-weight: normal;
+  letter-spacing: -0.3px;
+}
