@@ -10,5 +10,6 @@ body {
   color: #fff;
   overflow-x: hidden;
   font-weight: normal;
+  padding-left: 40px;
   letter-spacing: -0.3px;
 }
