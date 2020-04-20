@@ -1,10 +1,10 @@
 import React from "react";
 import logo from "../assets/logo.png";
-const Navbaar = () => {
+const Navbar = () => {
   return (
     <div>
       <img src={logo} alt="ikechi" />
     </div>
   );
 };
-export default Navbaar;
+export default Navbar;

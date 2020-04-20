@@ -10,12 +10,31 @@ body {
 :root {
   font-size: 14px;
 }
-
-body {
-  font-family: "Google Sans", sans-serif;
-  font-size: 1rem;
-  color: #020a16;
-  overflow-x: hidden;
-  font-weight: normal;
-  letter-spacing: -0.3px;
+.App {
+  max-width: 400px;
+  margin: 30px auto;
+  text-align: center;
+}
+nav {
+  padding: 5px;
+}
+nav ul {
+  padding: 0;
+}
+nav ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+.book-list {
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.book-list ul {
+  padding: 0;
+  list-style-type: none;
+}
+.book-list li {
+  padding: 10px;
+  margin: 10px auto;
+  border-radius: 10px;
 }

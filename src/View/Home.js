@@ -1,5 +1,5 @@
 import React from "react";
-import ik from "../assets/ik.png";
+import ik from "../assets/Ik.png";
 const Home = () => {
   return (
     <div>
