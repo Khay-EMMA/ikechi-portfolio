@@ -3,6 +3,7 @@ import Navbar from "./componentContext/Navbar";
 import Booklist from "./componentContext/BookList";
 import ThemeContextProvider from "./context/ThemeContext";
 import ThemeToggle from "./componentContext/ThemeToggle";
+import AuthContextProvider from "./context/AuthContext";
 //import Home from "./View/Home";
 //import Work from "./View/Work"
 //import { Switch, Route } from "react-router-dom";
@@ -11,11 +12,13 @@ import ThemeToggle from "./componentContext/ThemeToggle";
 function App() {
   return (
     <div className="App">
-      <ThemeContextProvider>
-        <Navbar />
-        <Booklist />
-        <ThemeToggle />
-      </ThemeContextProvider>
+      <AuthContextProvider>
+        <ThemeContextProvider>
+          <Navbar />
+          <Booklist />
+          <ThemeToggle />
+        </ThemeContextProvider>
+      </AuthContextProvider>
     </div>
   );
 }
