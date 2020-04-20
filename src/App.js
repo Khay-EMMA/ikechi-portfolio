@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "./componentContext/Navbar";
 import Booklist from "./componentContext/BookList";
 import ThemeContextProvider from "./context/ThemeContext";
+import ThemeToggle from "./componentContext/ThemeToggle";
 //import Home from "./View/Home";
 //import Work from "./View/Work"
 //import { Switch, Route } from "react-router-dom";
@@ -13,6 +14,7 @@ function App() {
       <ThemeContextProvider>
         <Navbar />
         <Booklist />
+        <ThemeToggle />
       </ThemeContextProvider>
     </div>
   );
