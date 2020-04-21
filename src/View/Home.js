@@ -4,7 +4,7 @@ const Home = () => {
   return (
     <div>
       <div>
-        <img src={ik} alt="ikechi uche" />
+        <img src={ik} alt="ikechi uche" className="" />
       </div>
       <div>Ikechi goes here</div>
     </div>

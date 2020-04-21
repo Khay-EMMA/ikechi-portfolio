@@ -1,0 +1,17 @@
+-------------------- Auto-Git Log --------------------
+		Tue Apr 21 2020 01:38:59 GMT+0100 (West Africa Standard Time)
+------------------------------------------------------
+
+Modified files:
+* package.json
+* yarn.lock
+
+
+Created files:
+* .autogit/logs/log-20-3-2020-21-42-5.txt
+
+
+Deleted files:
+
+
+Renamed files:
